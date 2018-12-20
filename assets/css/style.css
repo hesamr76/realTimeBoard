@@ -1,0 +1,70 @@
+* {margin: 0px; padding: 0px; box-sizing: border-box;
+    font-family: 'iranSans' !important;
+}
+
+@font-face {
+    font-family: 'iranSans';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../font/IRANSansWeb(FaNum).eot');
+    src: url('../font/IRANSansWeb(FaNum).eot') format('embedded-opentype'),
+    local('Akzidenz-Grotesk Next'),
+    url('../font/IRANSansWeb(FaNum).woff') format('woff')
+}
+
+.myHeader {width: 100%; height: 60px; margin: 0px;background-image: radial-gradient(circle at 50% 50%, #ff8f00, #fabe04);}
+
+.nameSlot {margin: 0px auto 0px auto; height: 100%; width: 40%;text-align: center;color: white;}
+
+.boardHeader {margin-bottom: 10px; width: 100%; display: flex; justify-content: space-between;}
+
+.bHead{width: 93%; height: 60px; text-align: right; display: flex; justify-content: space-around; align-items: center; background-color: #595959;color: white;}
+
+h4,h5 {margin-bottom: 0px!important;}
+
+
+.center{display: flex;justify-content: center; align-items: center;}
+
+.scoreDetail {width: 40%; display: flex; justify-content: space-around;align-items: center}
+
+.totalHead {width: 20%;height: 40px;border: 2px solid #f5a623; border-radius: 15px;}
+.totalBoard {width: 20%}
+
+.rankList {width: 7%; display: flex; flex-direction: column; margin: 5px 0px;}
+
+.rankItem { border: 2px solid #efe8dc;height: 50px;color:#f5a623;margin: 3px 0px;}
+
+.mainBoard {width: 100%; display: flex; flex-direction: column;}
+ 
+.itemSlot {width:93%; display: flex; flex-direction: column; justify-content: space-around; align-items: center;margin: 5px 0px;}
+
+.item {width: 100%; height: 50px; display: flex; justify-content: space-between; background-color: #efe8dc; margin: 3px 0px;}
+
+.name {width: 40%;vertical-align: middle;text-align: right;height: 50%;margin:0.7rem 1rem 0 0;}
+
+.slot {width: 30px; height: 30px; display: flex; justify-content: center; align-items: center; color: white;}
+
+.criterion {width:50px; border-bottom:3px solid red; color: red;} 
+
+.scoreDetail div:nth-child(1) {border-bottom:3px solid #f5a623; color: #f5a623;}
+.scoreDetail div:nth-child(2) {border-bottom:3px solid #f54323; color: #f54323;}
+.scoreDetail div:nth-child(3) {border-bottom:3px solid #6281d0; color: #6281d0;}
+.scoreDetail div:nth-child(4) {border-bottom:3px solid #25a6bc; color: #25a6bc;}
+
+.scoreDetail h5:nth-child(1) {border-bottom:3px solid #f5a623; color: #f5a623;}
+.scoreDetail h5:nth-child(2) {border-bottom:3px solid #f54323; color: #f54323;}
+.scoreDetail h5:nth-child(3) {border-bottom:3px solid #6281d0; color: #6281d0;}
+.scoreDetail h5:nth-child(4) {border-bottom:3px solid #25a6bc; color: #25a6bc;}
+.rank {border-radius: 100%; border: 2px solid yellow ; border-radius: 100%; color: yellow;}
+
+.fat {font-weight: 600}
+
+.totalScore {background-color: #595959;border: 2px solid #f5a623; border-radius: 15px; color: white; height: 40px; width: 60px;}
+
+.boards {width:100%; display: flex;justify-content: space-between;}
+
+.miniBoardSlot {width: 25%; padding: 0 5px 0 5px;}
+
+.miniBoard {display: flex; flex-direction: column; justify-content: space-around}
+
+.miniItem {background-color: black; display: flex; justify-content: space-between; align-items: center;}
