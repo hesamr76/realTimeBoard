@@ -18,7 +18,7 @@ function getList () {
 setInterval(() => {
     console.log('send request');
     getList()
-}, 5000);
+}, 10000);
 
 setInterval(() => {
     setTimeout(() => {
